@@ -396,6 +396,12 @@ footer .footer {
         width: 100%;
     }
 
+    #skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 5px;
+    }
+
     .menu-utama {
         position: fixed;
         width: 100%;
@@ -407,7 +413,7 @@ footer .footer {
         position: absolute;
         left: 0;
         top: 0;
-        width: 50%;
+        width: 60%;
         height: 100%;
         justify-content: space-evenly;
         flex-direction: column;
