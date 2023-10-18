@@ -351,10 +351,11 @@ footer .footer {
 
 .sosmed a,
 .contact p {
-    color: white;
+    color: black;
     text-decoration: none;
     letter-spacing: 1px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Responsive Breakpoint */
